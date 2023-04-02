@@ -1,0 +1,26 @@
+{
+  "name": "mia_learn_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check-version-python": "python --version",
+    "check-version-git": "git --version",
+    "check-version-node": "node --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhonyImamS/mia_api_automation.git"
+  },
+  "author": "DhonyImamS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhonyImamS/mia_api_automation/issues"
+  },
+  "homepage": "https://github.com/DhonyImamS/mia_api_automation#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
